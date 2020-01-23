@@ -28,4 +28,4 @@
 
 [Kong系列-14-自定义插件](14-customer-plugin.md)
 
-[Kong系列-15-自定义插件-Kubernetes](15-customer-plugin-kubernetes.md)
+[Kong系列-15-自定义插件for Kong Ingress Controller](15-customer-plugin-kubernetes.md)

@@ -7,6 +7,7 @@ Kong之前都是使用Admin API来进行管理的，Kong主要暴露两个端口
 - kongingresses：定义代理行为规则，是对Ingress的补充配置。
 - kongplugins：插件的配置。
 
+Kong创建的CRDs：
 
     kubectl get crds
     NAME                                       CREATED AT

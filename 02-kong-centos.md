@@ -1,6 +1,6 @@
 # Kong系列-02-CentOS 7下Kong 1.4.2安装
 
-先安装PostgreSQL，请参见[CentOS下PostgreSQL 12 安装](https://blog.csdn.net/twingao/article/details/103538914)。然后为Kong初始化数据库。
+先安装PostgreSQL，请参见[CentOS下PostgreSQL 12 安装](../postgresql/postgresql-12-centos-installation.md)。然后为Kong初始化数据库。
 
     su - postges
     su: user postges does not exist

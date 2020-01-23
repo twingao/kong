@@ -14,7 +14,7 @@
     aliyuncs        https://apphub.aliyuncs.com
     bitnami         https://charts.bitnami.com/bitnami
 
-由于需要安装PostgreSQL数据库，需要使用StorageClass动态存储卷，我们采用NFS共享文件系统来搭建共享存储卷。NFS服务器的安装请参见[nfs v4安装和使用-CentOS](https://blog.csdn.net/twingao/article/details/103326734)。
+由于需要安装PostgreSQL数据库，需要使用StorageClass动态存储卷，我们采用NFS共享文件系统来搭建共享存储卷。NFS服务器的安装请参见[nfs v4安装和使用-CentOS](../nfs/nfs-v4-centos-installation-introduction.md)。
 
 NFS服务器安装完成后，为Kong创建共享文件系统。
 

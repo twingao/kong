@@ -6,30 +6,30 @@ Kong官方预置大量的插件，可以在Kong Hub查看官方插件，其中�
 
 Kong安装完成后已经预置了开源插件的代码，可以在/usr/local/share/lua/5.1/kong/plugins目录查看。也可以在Kong的github代码库[https://github.com/Kong/kong/tree/master/kong/plugins](https://github.com/Kong/kong/tree/master/kong/plugins)中查看代码。
 
-	cd /usr/local/share/lua/5.1/kong/plugins
-	
-	ls
-	acl              datadog                      ldap-auth        rate-limiting          syslog
-	aws-lambda       file-log                     loggly           request-size-limiting  tcp-log
-	azure-functions  hmac-auth                    log-serializers  request-termination    udp-log
-	base_plugin.lua  http-log                     oauth2           request-transformer    zipkin
-	basic-auth       ip-restriction               post-function    response-ratelimiting
-	bot-detection    jwt                          pre-function     response-transformer
-	correlation-id   key-auth                     prometheus       session
-	cors             kubernetes-sidecar-injector  proxy-cache      statsd
-	
-	tree key-auth/
-	key-auth/
-	├── daos.lua
-	├── handler.lua
-	├── migrations
-	│   ├── 000_base_key_auth.lua
-	│   ├── 001_14_to_15.lua
-	│   ├── 002_130_to_140.lua
-	│   └── init.lua
-	└── schema.lua
-	
-	1 directory, 7 files
+    cd /usr/local/share/lua/5.1/kong/plugins
+    
+    ls
+    acl              datadog                      ldap-auth        rate-limiting          syslog
+    aws-lambda       file-log                     loggly           request-size-limiting  tcp-log
+    azure-functions  hmac-auth                    log-serializers  request-termination    udp-log
+    base_plugin.lua  http-log                     oauth2           request-transformer    zipkin
+    basic-auth       ip-restriction               post-function    response-ratelimiting
+    bot-detection    jwt                          pre-function     response-transformer
+    correlation-id   key-auth                     prometheus       session
+    cors             kubernetes-sidecar-injector  proxy-cache      statsd
+    
+    tree key-auth/
+    key-auth/
+    ├── daos.lua
+    ├── handler.lua
+    ├── migrations
+    │   ├── 000_base_key_auth.lua
+    │   ├── 001_14_to_15.lua
+    │   ├── 002_130_to_140.lua
+    │   └── init.lua
+    └── schema.lua
+    
+    1 directory, 7 files
 
 以下给出官方开源插件的简单介绍。
 

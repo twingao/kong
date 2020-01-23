@@ -63,3 +63,7 @@ Kong有三种配置管理方式：
 - 管理API方式：Kong的标准管理方式，Kong的配置数据都是通过调用Kong提供的Rest API进行管理，最终配置都存放在数据库中，Kong集群实例从数据库读取配置。
 - 声明式配置文件Declarative Config：在无数据库方式下，Kong提供一种声明式配置文件，配置数据在文件中声明，然后通过文件或者Rest API的方式一次性加载到Kong中。
 - Ingress Controller：Kong在Kubernetes下支持Ingress Controller，Kong还定义了多个自定义资源CRDs，配置数据通过这些CRDs进行配置。
+
+以下Kong的部署架构。
+
+![Deployment-Architecture](images/deployment-arch.png)

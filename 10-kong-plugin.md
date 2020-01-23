@@ -17,8 +17,8 @@ KongPlugin资源的定义：
 创建KongPlugin资源后，还需要将该资源与Kubernetes中的Ingress、Service或KongConsumer资源关联。下图显示了KongPlugin资源和Ingress、Service和KongConsumer的关联关系。
 
 |  |  |
-:-:|:-:
-![](images/kong-plugin-association1.png)|![](images/kong-plugin-association2.png)
+|:-:|:-:
+|![](images/kong-plugin-association1.png)|![](images/kong-plugin-association2.png)|
 
 下面介绍一下如何使用KongPlugin资源。先将Kong初始化为空配置。
 
